@@ -1,0 +1,8 @@
+# Developed By: YUVARAJ.S
+# Register Number:22008589
+equ=cv2.equalizeHist(cv2.imread('img2.jpg',0))
+equ=cv2.cvtColor(equ,cv2.COLOR_BGR2RGB)
+plt.title("Equalised Image")
+plt.axis("off")
+plt.imshow(equ)
+plt.show()
